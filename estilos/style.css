@@ -1,1 +1,263 @@
 @charset "utf-8";
+
+:root {
+    --corgray: rgb(49, 49, 49);
+    --corpurple: darkorchid;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 98vw;
+    height: 100vh;
+}
+
+header {
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 5px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+#logo {
+    color: var(--corgray);
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#nav-list {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.item-list:hover {
+    color: var(--corpurple);
+    text-decoration: underline;
+    text-decoration-color: var(--corpurple);
+    cursor: pointer;
+}
+
+header > div > ul > li > a{
+    color: var(--corgray);
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+}
+
+#dev-field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
+}
+
+.super-titulo {
+    color: var(--corpurple);
+    font-size: 2.8em;
+    margin-bottom: 5px;
+}
+
+.super-paragrafo {
+    font-size: 1.1rem;
+}
+
+#tech-field {
+    display: flex;
+    max-width: 1200px;
+    padding: 0px 20px;
+
+    flex-wrap: wrap;
+    margin: 65px auto 110px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#tech-field p {
+    border-right: 1px solid var(--corgray);
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+#tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;   
+    list-style-type: none;
+    border-radius: 50%;
+}
+
+#tech-icons > li {
+    display: flex;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+}
+
+#techicons > li > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+#sobre-bg {
+    display: block;
+    max-width: 1200px;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+
+#sobre {
+    max-width: 1000px;
+    margin: 0 auto 110px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#sobre img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+.titulo {
+    line-height: 1.15;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.sub-titulo {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--corpurple);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    display: block;
+}
+
+#formacao-bg {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0px 20px;
+    margin: 0px auto 150px auto;
+    justify-content: center;
+}
+
+#formacao {
+    text-align: left;
+}
+
+#formacao p {
+    font-size: 1.3em;
+}
+
+#projetos-bg {
+    display: block;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    margin: 100px auto 150px auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
+}
+
+.projetos-container {
+    max-width: 1000px;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+
+.projeto-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 80px 0px 30px 0px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    padding: 20px 15px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.projetos-links {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-externo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.link-externo > a {
+    color: var(--corgray);
+    text-decoration: none;
+}
+
+.link-externo > a:hover {
+    color: var(--corpurple);
+}
+
+.projeto-img {
+    display: block;
+    max-width: 20%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.projeto-img > img {
+    border-radius: 6px;
+}
+
+#contato-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 150px auto 100px auto;
+}
+
+#form {
+    border: 1px solid black;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.botao {
+    padding: 5px 25px 5px 25px;
+    margin-left: -11px;
+}

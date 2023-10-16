@@ -13,120 +13,130 @@
 
     <header id="header">
         <div id="nav-bar">
-            <a href="">Jotage.dev</a>
+            <a href="#" id="logo">JotaMedeiros.dev</a>
             <ul id="nav-list">
-                <li>Início</li>
-                <li>Sobre</li>
-                <li>Projetos</li>
-                <li>Contato</li>
+                <li><a href="#" class="item-list">Início</a></li>
+                <li><a href="#" class="item-list">Sobre</a></li>
+                <li><a href="#" class="item-list">Formação</a></li>
+                <li><a href="#" class="item-list">Projetos</a></li>
+                <li><a href="#" class="item-list">Contato</a></li>
             </ul>
         </div>
     </header>
 
     <main id="main">
         <div id="dev-field">
-            <h1>Desenvolvedor Front-End</h1>
-            <p>Olá! Meu nome é João Guilherme. Um desenvolvedor front-end apaixonado por criar experiências digitais incríveis, localizado na capital do Paraná. 📍</p>
-            <span>LinkedIn</span> <span>GitHub</span>
+            <h1 class="super-titulo">Desenvolvedor Front-End 👋</h1>
+            <p class="super-paragrafo">Olá! Meu nome é João Guilherme. Um desenvolvedor front-end apaixonado por criar experiências digitais incríveis, localizado em Curitiba/PR. 📍</p>
+            <div class="git-icon">
+                <a href="https://github.com/jotamedeiros" target="_blank">
+                    <img src="./imagens/icons/github.png" target="_blank" alt="Icon GitHub">
+                </a>
+            </div>
         </div>
 
         <article id="tech-field">
-            <p>Tech Skills |</p>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>Figma</li>
-                <li>Git</li>
+            <p>Tech Skills</p>
+            <ul id="tech-icons">
+                <li><img src="./imagens/skills/html.png" alt="HTML"></li>
+                <li><img src="./imagens/skills/css.png" alt="CSS"></li>
+                <li><img src="./imagens/skills/js.png" alt="JavaScript"></li>
+                <li><img src="./imagens/skills/figma.png" alt="Figma"></li>
+                <li><img src="./imagens/skills/git.png" alt="Git"></li>
             </ul>
         </article>
 
         <section id="sobre-bg">
             <div id="sobre">
                 <img src="imagens/perfil/me-model.jpeg" alt="Foto de Perfil">
-            </div>
-            <div id="conteudo">
-                <span class="sub-titulo">Sobre mim</span>
-                <h3 class="titulo">Um desenvolvedor web em desenvolvimento. 💻</h3>
-                <p>Sou um desenvolvedor front-end entusiasmado em início de carreira. Sou movido pela paixão pela tecnologia e pela criação de experiências digitais envolventes.</p>
-                <p>Minha trajetória no desenvolvimento front-end começou há pouco tempo, mas estou dedicado a aprimorar minhas habilidades e conhecimentos.</p> <p>Tenho uma sólida base em <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, e já desenvolvi alguns pequenos projetos pessoais para praticar e consolidar meu aprendizado.</p>
-                <p>Embora seja um iniciante, tenho uma abordagem curiosa e criativa para resolver problemas e estou sempre aberto a feedbacks construtivos para melhorar minhas criações.</p>
+                <div id="conteudo">
+                    <span class="sub-titulo">Sobre mim</span>
+                    <h3 class="titulo">Um desenvolvedor web em desenvolvimento. 💻</h3>
+                    <p>Sou um desenvolvedor front-end empolgado em início de carreira. Movido pela paixão e curiosidade pela tecnologia e criação de experiências digitais envolventes.</p>
+                    <p>Minha trajetória no desenvolvimento começou há pouco tempo, mas estou empenhado em aprimorar cada vez mais minhas habilidades e conhecimentos.</p> <p>Atualmente estou construindo uma sólida base em <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, e já desenvolvi alguns pequenos projetos pessoais para praticar e consolidar meu aprendizado.</p>
+                    <p>Embora seja um iniciante na tecnologia, minha experiência fora dela me trouxe uma abordagem curiosa e criativa para resolver problemas e estou sempre aberto a feedbacks construtivos para melhorar minhas criações.</p>
+                </div>
             </div>
         </section>
 
         <section id="formacao-bg">
             <div id="formacao">
                 <span class="sub-titulo">Formação</span>
-                <h3 class="titulo">Formação no mundo da tecnologia. 👨‍💻</h3>
+                <h3 class="titulo">Minha formação no mundo da tecnologia. 📚</h3>
                 <p>Curso Superior em Análise e Desenvolvimento de Sistemas [CURSANDO]</p>
             </div>
         </section>
 
         <section id="projetos-bg">
-            <div class="projetos container">
+            <div class="projetos-container">
                 <span class="sub-titulo">Projetos</span>
-                <h3>Cada projeto é um degrau para a evolução. 🧩️</h3>
+                <h3 class="titulo">Cada projeto é um degrau para a evolução. 🧩️</h3>
                 <section class="projeto-conteudo">
-                    <a href="https://jotamedeiros.github.io/projeto-login/" target="_blank" class="projeto-img"><img src="./imagens/projects/projeto-login.png" alt="Projeto Tela de Login"></a>
+                    <a href="https://jotamedeiros.github.io/projeto-login/" target="_blank" class="projeto-img"><img src="./imagens/projects/projeto-login-menor.png" alt="Projeto Tela de Login"></a>
                     <div class="projeto-descricao">
-                        <h4>Tela de Login 🔑</h4>
+                        <h4>Projeto Tela de Login 🔑</h4>
                         <p>Tela de login desenvolvida para estudos e aplicação de conhecimentos como media queries, responsividade e formulários.</p>
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
                         </ul>
-                        <div class="link-externo">
-                            <a href="https://github.com/jotamedeiros/projeto-login">Código</a>
-                            <img src="./imagens/icons/github-menor.png" alt="Icon GitHub">
-                        </div>
-                        <div class="link-externo">
-                            <a href="https://jotamedeiros.github.io/projeto-login/">Código</a>
-                            <img src="./imagens/icons/link-externo.png" alt="Link Externo">
-                        </div>
-                    </div>
-                </section>
-
-                <section class="projeto-conteudo">
-                    <a href="https://jotamedeiros.github.io/projeto-social/" target="_blank" class="projeto-img"><img src="./imagens/projects/projeto-social.png" alt="Projeto Tela de Login"></a>
-                    <div class="projeto-descricao">
-                        <h4>Projeto Social 🔗</h4>
-                        <p>Projeto que utiliza iframes e conceitos de responsividade para estudos e aplicação de conhecimentos.</p>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                        </ul>
-                        <div class="link-externo">
-                            <a href="https://github.com/jotamedeiros/projeto-social">Código</a>
-                            <img src="./imagens/icons/github-menor.png" alt="Icon GitHub">
-                        </div>
-                        <div class="link-externo">
-                            <a href="https://jotamedeiros.github.io/projeto-social/">Código</a>
-                            <img src="./imagens/icons/link-externo.png" alt="Link Externo">
+                        <div class="projetos-links">
+                            <div class="link-externo">
+                                <a href="https://github.com/jotamedeiros/projeto-login" target="_blank">Código</a>
+                                <a href="https://github.com/jotamedeiros/projeto-login" target="_blank"><img src="./imagens/icons/github-menor.png" alt="Icon GitHub"></a>
+                            </div>
+                            <div class="link-externo">
+                                <a href="https://jotamedeiros.github.io/projeto-login/" target="_blank">View</a>
+                                <a href="https://jotamedeiros.github.io/projeto-login/" target="_blank"><img src="./imagens/icons/link-externo.png" alt="Link Externo"></a>
+                            </div>
                         </div>
                     </div>
                 </section>
 
                 <section class="projeto-conteudo">
-                    <a href="https://jotamedeiros.github.io/projeto-android/" target="_blank" class="projeto-img"><img src="./imagens/projects/projeto-android.png" alt="Projeto Tela de Login"></a>
+                    <a href="https://jotamedeiros.github.io/projeto-social/" target="_blank" class="projeto-img"><img src="./imagens/projects/projeto-social-menor.png" alt="Projeto Redes Sociais"></a>
                     <div class="projeto-descricao">
-                        <h4>Projeto Social 🔗</h4>
-                        <p>Projeto que utiliza iframes e conceitos de responsividade para estudos e aplicação de conhecimentos.</p>
+                        <h4>Projeto Iframes Social 🔗</h4>
+                        <p>Projeto básico que utiliza iframes e conceitos de responsividade para estudos e aplicação de conhecimentos.</p>
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
                         </ul>
-                        <div class="link-externo">
-                            <a href="https://github.com/jotamedeiros/projeto-android">Código</a>
-                            <img src="./imagens/icons/github-menor.png" alt="Icon GitHub">
-                        </div>
-                        <div class="link-externo">
-                            <a href="https://jotamedeiros.github.io/projeto-android/">Código</a>
-                            <img src="./imagens/icons/link-externo.png" alt="Link Externo">
+                        <div class="projetos-links">
+                            <div class="link-externo">
+                                <a href="https://github.com/jotamedeiros/projeto-social" target="_blank">Código</a>
+                                <a href="https://github.com/jotamedeiros/projeto-social" target="_blank"><img src="./imagens/icons/github-menor.png" alt="Icon GitHub"></a>
+                            </div>
+                            <div class="link-externo">
+                                <a href="https://jotamedeiros.github.io/projeto-social/" target="_blank">View</a>
+                                <a href="https://jotamedeiros.github.io/projeto-social/" target="_blank"><img src="./imagens/icons/link-externo.png" alt="Link Externo"></a>
+                            </div>
                         </div>
                     </div>
                 </section>
-            </div>
-        </section>
+
+                <section class="projeto-conteudo">
+                    <a href="https://jotamedeiros.github.io/projeto-android/" target="_blank" class="projeto-img"><img src="./imagens/projects/projeto-android-menor.png" alt="Projeto Redes Sociais"></a>
+                    <div class="projeto-descricao">
+                        <h4>Projeto Android 🤖</h4>
+                        <p>Meu primeiro projeto, feito para aplicar conceitos e conhecimentos básicos de semântica, estilização e pouca responsividade.
+                        </p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                        <div class="projetos-links">
+                            <div class="link-externo">
+                                <a href="https://github.com/jotamedeiros/projeto-android" target="_blank">Código</a>
+                                <a href="https://github.com/jotamedeiros/projeto-android" target="_blank"><img src="./imagens/icons/github-menor.png" alt="Icon GitHub"></a>
+                            </div>
+                            <div class="link-externo">
+                                <a href="https://jotamedeiros.github.io/projeto-android/" target="_blank">View</a>
+                                <a href="https://jotamedeiros.github.io/projeto-android/" target="_blank"><img src="./imagens/icons/link-externo.png" alt="Link Externo"></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
         <section id="contato-bg">
             <div class="contato">
@@ -135,9 +145,10 @@
             </div>
             <div id="form">
                 <form action="#">
-                    <p><label for="idnome">Nome: </label><input type="text" name="nome" id="idnome"></p>
-                    <p><label for="idemail">Email: </label><input type="email" name="email" id="idemail"></p>
-                    <p><label for="idmsg">Mensagem: </label><input type="text" name="msg" id="idmsg"></p>
+                    <p><label for="idnome">Nome: </label><input type="text" name="nome" id="idnome" size="40" required></p>
+                    <p><label for="idemail">Email: </label><input type="email" name="email" id="idemail" size="40" required></p>
+                    <p><label for="idtext">Mensagem: </label><br><textarea name="text" id="idtext" cols="48" rows="11" required></textarea></p>
+                    <input class="button" type="submit" value="Enviar">
                 </form>
             </div>
         </section>
