@@ -5,12 +5,19 @@
     --corpurple: darkorchid;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    width: 98vw;
+    width: 99vw;
     height: 100vh;
 }
 
@@ -25,7 +32,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    line-height: 5px;
     padding: 20px;
     margin-right: 20px;
 }
@@ -55,6 +61,10 @@ header > div > ul > li > a{
     text-decoration: none;
 }
 
+.git-icon {
+    margin-top: 20px;
+}
+
 main {
     background-color: white;
 }
@@ -73,6 +83,7 @@ main {
     color: var(--corpurple);
     font-size: 2.8em;
     margin-bottom: 5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.466);
 }
 
 .super-paragrafo {
@@ -102,6 +113,7 @@ main {
     gap: 25px;   
     list-style-type: none;
     border-radius: 50%;
+    margin-left: 15px;
 }
 
 #tech-icons > li {
@@ -115,11 +127,11 @@ main {
     box-shadow: 0 0 10px rgba(0,0,0,.09);
 }
 
-#techicons > li > img {
+#tech-icons > li > img {
     display: block;
     max-width: 100%;
     height: auto;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 #sobre-bg {
@@ -130,10 +142,10 @@ main {
 }
 
 #sobre {
-    max-width: 1000px;
-    margin: 0 auto 110px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    margin: 0 auto 110px auto;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -141,10 +153,12 @@ main {
 
 #sobre img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 10px;
-    overflow-clip-margin: content-box;
-    overflow: clip;
+}
+
+#conteudo p {
+    margin-top: 15px;
 }
 
 
@@ -161,6 +175,7 @@ main {
     margin-bottom: 10px;
     letter-spacing: 1px;
     display: block;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.315);
 }
 
 #formacao-bg {
@@ -186,12 +201,12 @@ main {
     width: 100%;
     height: auto;
     padding: 40px 20px;
-    margin: 100px auto 150px auto;
+    margin: 100px auto 0px auto;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
 }
 
 .projetos-container {
-    max-width: 1000px;
+    max-width: 1200px;
     padding: 0px 20px;
     margin: 0px auto;
 }
@@ -201,6 +216,7 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin: 80px 0px 30px 0px;
+    width: 100%;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,.09);
     padding: 20px 15px;
@@ -208,11 +224,33 @@ main {
     align-items: center;
 }
 
+.titulo-projeto {
+    color: var(--corpurple);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.315);
+    margin-bottom: 20px;
+}
+
+.projeto-img {
+    display: block;
+    max-width: 20%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.projeto-img > img {
+    border-radius: 6px;
+}
+
+.techs-projeto {
+    margin-left: 17px;
+}
+
 .projetos-links {
     display: flex;
     gap: 50px;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
 }
 
 .link-externo {
@@ -230,31 +268,23 @@ main {
     color: var(--corpurple);
 }
 
-.projeto-img {
-    display: block;
-    max-width: 20%;
-    height: auto;
-    border-radius: 6px;
+#contato-bg {
+    background-color: white;
+    width: 100%;
+    height: 300px;
 }
 
-.projeto-img > img {
-    border-radius: 6px;
-}
-
-footer {
+.contato {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
-}
-
-#contato-bg {
-    padding: 0px 20px;
-    margin-top: ;
+    background: #f5f5f5;
+    padding: 20px;
 }
 
 #form {
+    display: block;
     border: 1px solid black;
     padding: 10px;
     width: 400px;
@@ -264,4 +294,47 @@ footer {
 .botao {
     padding: 5px 25px 5px 25px;
     margin-left: -11px;
+}
+
+aside {
+    background-color: red;
+}
+
+footer {
+    background-color: var(--corgray);
+    height: auto;
+    width: 100%;
+    padding-block: 10px;
+}
+
+#rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+.img-footer {
+    margin-right: 10px;
+}
+
+.contato-texto > a {
+    color: white;
+    text-decoration: none;
 }

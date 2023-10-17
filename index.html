@@ -73,10 +73,11 @@
                 <h3 class="titulo">Cada projeto é um degrau para a evolução. 🧩️</h3>
                 <section class="projeto-conteudo">
                     <a href="https://jotamedeiros.github.io/projeto-login/" target="_blank" class="projeto-img"><img src="./imagens/projects/projeto-login-menor.png" alt="Projeto Tela de Login"></a>
-                    <div class="projeto-descricao">
-                        <h4>Projeto Tela de Login 🔑</h4>
+                    <div id="descricao">
+                        <h4 class="titulo-projeto">Projeto Tela de Login 🔑</h4>
                         <p>Tela de login desenvolvida para estudos e aplicação de conhecimentos como media queries, responsividade e formulários.</p>
-                        <ul>
+                        <br>
+                        <ul class="techs-projeto">
                             <li>HTML</li>
                             <li>CSS</li>
                         </ul>
@@ -86,7 +87,7 @@
                                 <a href="https://github.com/jotamedeiros/projeto-login" target="_blank"><img src="./imagens/icons/github-menor.png" alt="Icon GitHub"></a>
                             </div>
                             <div class="link-externo">
-                                <a href="https://jotamedeiros.github.io/projeto-login/" target="_blank">View</a>
+                                <a href="https://jotamedeiros.github.io/projeto-login/" target="_blank">Visualizar</a>
                                 <a href="https://jotamedeiros.github.io/projeto-login/" target="_blank"><img src="./imagens/icons/link-externo.png" alt="Link Externo"></a>
                             </div>
                         </div>
@@ -96,9 +97,10 @@
                 <section class="projeto-conteudo">
                     <a href="https://jotamedeiros.github.io/projeto-social/" target="_blank" class="projeto-img"><img src="./imagens/projects/projeto-social-menor.png" alt="Projeto Redes Sociais"></a>
                     <div class="projeto-descricao">
-                        <h4>Projeto Iframes Social 🔗</h4>
+                        <h4 class="titulo-projeto">Projeto Iframes Social 🔗</h4>
                         <p>Projeto básico que utiliza iframes e conceitos de responsividade para estudos e aplicação de conhecimentos.</p>
-                        <ul>
+                        <br>
+                        <ul class="techs-projeto">
                             <li>HTML</li>
                             <li>CSS</li>
                         </ul>
@@ -108,7 +110,7 @@
                                 <a href="https://github.com/jotamedeiros/projeto-social" target="_blank"><img src="./imagens/icons/github-menor.png" alt="Icon GitHub"></a>
                             </div>
                             <div class="link-externo">
-                                <a href="https://jotamedeiros.github.io/projeto-social/" target="_blank">View</a>
+                                <a href="https://jotamedeiros.github.io/projeto-social/" target="_blank">Visualizar</a>
                                 <a href="https://jotamedeiros.github.io/projeto-social/" target="_blank"><img src="./imagens/icons/link-externo.png" alt="Link Externo"></a>
                             </div>
                         </div>
@@ -118,10 +120,11 @@
                 <section class="projeto-conteudo">
                     <a href="https://jotamedeiros.github.io/projeto-android/" target="_blank" class="projeto-img"><img src="./imagens/projects/projeto-android-menor.png" alt="Projeto Redes Sociais"></a>
                     <div class="projeto-descricao">
-                        <h4>Projeto Android 🤖</h4>
+                        <h4 class="titulo-projeto">Projeto Android 🤖</h4>
                         <p>Meu primeiro projeto, feito para aplicar conceitos e conhecimentos básicos de semântica, estilização e pouca responsividade.
                         </p>
-                        <ul>
+                        <br>
+                        <ul class="techs-projeto">
                             <li>HTML</li>
                             <li>CSS</li>
                         </ul>
@@ -131,7 +134,7 @@
                                 <a href="https://github.com/jotamedeiros/projeto-android" target="_blank"><img src="./imagens/icons/github-menor.png" alt="Icon GitHub"></a>
                             </div>
                             <div class="link-externo">
-                                <a href="https://jotamedeiros.github.io/projeto-android/" target="_blank">View</a>
+                                <a href="https://jotamedeiros.github.io/projeto-android/" target="_blank">Visualizar</a>
                                 <a href="https://jotamedeiros.github.io/projeto-android/" target="_blank"><img src="./imagens/icons/link-externo.png" alt="Link Externo"></a>
                             </div>
                         </div>
@@ -140,33 +143,41 @@
         </section>
     </main>
 
-    <footer id="footer-bg">
+<!--
+    <aside>
         <section id="contato-bg">
             <div class="contato">
                 <span class="sub-titulo">Contato</span>
                 <h3 class="titulo">Entre em contato comigo! 👇</h3>
-            </div>
-            <div id="form">
-                <form action="#">
-                    <p><label for="idnome">Nome: </label><input type="text" name="nome" id="idnome" size="40" required></p>
-                    <p><label for="idemail">Email: </label><input type="email" name="email" id="idemail" size="40" required></p>
-                    <p><label for="idtext">Mensagem: </label><br><textarea name="text" id="idtext" cols="48" rows="11" required></textarea></p>
-                    <input class="button" type="submit" value="Enviar">
-                </form>
+                <div id="form">
+                    <form action="#">
+                        <p><label for="idnome">Nome: </label><input type="text" name="nome" id="idnome" size="40" required></p>
+                        <p><label for="idemail">Email: </label><input type="email" name="email" id="idemail" size="40" required></p>
+                        <p><label for="idtext">Mensagem: </label><br><textarea name="text" id="idtext" cols="40" rows="11" required></textarea></p>
+                        <input class="button" type="submit" value="Enviar">
+                    </form>
+                </div>
             </div>
         </section>
-        
-        <div class="rodape">
-            <ul>
-                <li class="contato"><img src="./imagens/icons/whatsapp.png" alt="Ícone do WhatsApp">
-                    <div class="contato-texto">
-                        <h4>WhatsApp</h4>
+    </aside>
+-->
+
+    <footer id="footer-bg">        
+        <div id="rodape">
+            <ul id="footer-list">
+                <li class="footer-item">
+                    <a href="https://wa.me/+5541995990110" target="_blank">
+                        <img class="img-footer" src="./imagens/icons/whatsapp-64.png" alt="Ícone do WhatsApp">
+                        <div class="contato-texto">
+                    </a>
+                        <h4>WhatsApp:</h4>
                         <a href="https://wa.me/+5541995990110" target="_blank">+55 41 99599-0110</a>
                     </div>
                 </li>
-                <li class="contato"><img src="./imagens/icons/email.png" alt="Ícone de Email">
+                <li class="footer-item">
+                    <a href="#"><img class="img-footer" src="./imagens/icons/email-roxo.png" alt="Ícone de Email"></a>
                     <div class="contato-texto">
-                        <h4>Email</h4>
+                        <h4>Email:</h4>
                         <a href="#" target="_blank">devjoaogui@gmail.com</a>
                     </div>
                 </li>
