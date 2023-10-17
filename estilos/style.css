@@ -162,6 +162,11 @@ main {
     text-align: justify;
 }
 
+#conteudo > p > a {
+    color: var(--corpurple);
+    text-decoration: none;
+}
+
 
 .titulo {
     line-height: 1.15;
