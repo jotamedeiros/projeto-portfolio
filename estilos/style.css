@@ -308,6 +308,7 @@ aside {
 textarea {
     border-color: rgb(199, 199, 199);
     border-radius: 3px;
+    resize: none;
 }
 
 #button {
