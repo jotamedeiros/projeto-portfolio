@@ -112,19 +112,15 @@ main {
 /* estilizações da lista de 'tech skills' */
 #tech-field {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    gap: 30px;
     align-items: center;
     justify-content: center;
     max-width: 800px;
     height: auto;
-    margin: 65px auto 110px auto;
+    margin: 85px auto 110px auto;
     padding: 0px 20px;
-}
-
-#tech-field p {
-    border-right: 1px solid var(--corgray);
-    font-weight: bold;
-    padding-right: 15px;
 }
 
 #tech-icons {
@@ -136,7 +132,15 @@ main {
     margin-left: 15px;
 }
 
-#tech-icons > li {
+.tech-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+#tech-icons > div > li {
     display: flex;
     background-color: white;
     width: 50px;
