@@ -112,13 +112,13 @@ main {
 /* estilizações da lista de 'tech skills' */
 #tech-field {
     display: flex;
-    max-width: 1200px;
-    padding: 0px 20px;
-
     flex-wrap: wrap;
-    margin: 65px auto 110px auto;
     align-items: center;
     justify-content: center;
+    max-width: 800px;
+    height: auto;
+    margin: 65px auto 110px auto;
+    padding: 0px 20px;
 }
 
 #tech-field p {
