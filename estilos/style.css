@@ -39,6 +39,7 @@ header {
     background-color: white;
     width: 100%;
     height: 70px;
+    z-index: 10;
 }
 
 #nav-bar {
@@ -60,22 +61,20 @@ header {
     display: flex;
     list-style-type: none;
     gap: 20px;
-}
-
-#nav-list > li:hover {
-    transform: translateY(-3px);
+    position: relative;
 }
 
 .item-list:hover {
-    color: var(--corpurple);
-    /* text-decoration: underline; */
-    /* text-decoration-color: var(--corpurple); */
-    cursor: pointer;
+    transform: translateY(-3px);
 }
 
-header > div > ul > li > a{
+.item-list > a {
     color: var(--corgray);
     text-decoration: none;
+}
+
+.item-list > a:hover {
+    color: var(--corpurple);
 }
 
 
