@@ -62,10 +62,14 @@ header {
     gap: 20px;
 }
 
+#nav-list > li:hover {
+    transform: translateY(-3px);
+}
+
 .item-list:hover {
     color: var(--corpurple);
-    text-decoration: underline;
-    text-decoration-color: var(--corpurple);
+    /* text-decoration: underline; */
+    /* text-decoration-color: var(--corpurple); */
     cursor: pointer;
 }
 
@@ -111,6 +115,10 @@ main {
     align-items: center;
     gap: 15px;
     margin-top: 20px;
+}
+
+.social-item:hover {
+    transform: translateY(5px);
 }
 
 /* estilizações da seção 'sobre mim' */
@@ -179,6 +187,10 @@ main {
     gap: 3px;
 }
 
+.tech-icon:hover {
+    transform: translateY(-5px);
+}
+
 #tech-icons > div > li {
     display: flex;
     background-color: white;
@@ -215,26 +227,6 @@ main {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.315);
 }
 
-
-/* estilizações da seção 'formação' */
-#formacao-bg {
-    display: flex;
-    width: 100%;
-    height: auto;
-    padding: 0px 20px;
-    margin: 0px auto 150px auto;
-    justify-content: center;
-}
-
-#formacao {
-    text-align: left;
-}
-
-#formacao p {
-    font-size: 1.3em;
-}
-
-
 /* estilizações da lista de projetos */
 #projetos-bg {
     display: block;
@@ -263,6 +255,10 @@ main {
     padding: 20px 15px;
     border-radius: 10px;
     align-items: center;
+}
+
+.projeto-conteudo:hover {
+    transform: translateY(-8px);
 }
 
 .titulo-projeto {
@@ -382,13 +378,6 @@ footer {
     padding-block: 10px;
 }
 
-/* #rodape {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-} */
-
 #footer-list {
     display: flex;
     flex-wrap: wrap;
@@ -406,6 +395,10 @@ footer {
     align-items: center;
     color: white;
     text-decoration: none;
+}
+
+.footer-item:hover {
+    transform: translateY(-3px);
 }
 
 .img-footer {
