@@ -17,7 +17,7 @@
 /* efeito de scroll ao clicar nos links do menu */
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 100px;
+    scroll-padding-top: 6.25rem;
 }
 
 
@@ -38,7 +38,7 @@ header {
     position: fixed;
     background-color: white;
     width: 100%;
-    height: 70px;
+    height: auto;
     z-index: 10;
 }
 
@@ -46,13 +46,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    margin-right: 20px;
+    padding: 1.25rem;
+    margin-right: 1.25rem;
 }
 
 #logo {
     color: var(--corgray);
-    font-size: 25px;
+    margin-left: 0.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
 }
@@ -60,12 +61,12 @@ header {
 #nav-list {
     display: flex;
     list-style-type: none;
-    gap: 20px;
+    gap: 1.25rem;
     position: relative;
 }
 
 .item-list:hover {
-    transform: translateY(-3px);
+    transform: translateY(-0.2rem);
 }
 
 .item-list > a {
@@ -82,7 +83,8 @@ header {
 main {
     background-color: white;
     width: 100%;
-    padding-top: 86px;
+    height: auto;
+    padding-top: 5.3rem;
 }
 
 
@@ -92,15 +94,15 @@ main {
     flex-direction: column;
     width: 100%;
     text-align: center;
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
     background-color: #f5f5f5;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
 }
 
 .super-titulo {
     color: var(--corpurple);
-    font-size: 2.8em;
-    margin-bottom: 5px;
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.466);
 }
 
@@ -112,40 +114,39 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    margin-top: 20px;
+    gap: 0.9rem;
+    margin-top: 1.25rem;
 }
 
 .social-item:hover {
-    transform: translateY(5px);
+    transform: translateY(0.3rem);
 }
 
 /* estilizações da seção 'sobre mim' */
 #sobre-bg {
     display: block;
     max-width: 1200px;
-    padding: 0px 20px;
     margin: 85px auto;
 }
 
 #sobre {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1000px;
-    margin: 0 auto 110px auto;
     justify-content: center;
     align-items: center;
+    max-width: 1000px;
+    margin: 0 auto 110px auto;
     gap: 30px;
 }
 
 #sobre img {
     max-width: 100%;
     height: 100%;
-    border-radius: 60px;
+    border-radius: 30px;
 }
 
 #conteudo p {
-    margin-top: 15px;
+    margin-top: 0.9rem;
     text-align: justify;
 }
 
@@ -160,7 +161,7 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 1.8rem;
     align-items: center;
     justify-content: center;
     max-width: 800px;
@@ -175,7 +176,6 @@ main {
     gap: 40px;   
     list-style-type: none;
     border-radius: 50%;
-    margin-left: 15px;
 }
 
 .tech-icon {
@@ -217,12 +217,12 @@ main {
 }
 
 .sub-titulo {
-    text-transform: uppercase;
-    font-weight: 600;
+    display: block;
     color: var(--corpurple);
+    font-weight: 600;
     margin-bottom: 10px;
     letter-spacing: 1px;
-    display: block;
+    text-transform: uppercase;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.315);
 }
 
@@ -319,7 +319,7 @@ aside {
     background-color: white;
     width: 550px;
     height: 450px;
-    margin: 0px auto 30px auto;
+    margin: 30px auto 30px auto;
     padding: 20px;
     border: 1px solid #f5f5f5;
     border-radius: 10px;
@@ -328,9 +328,6 @@ aside {
 
 
 /* estilizações do formulário de contato */
-#form {
-    margin-top: 25px;
-}
 
 #form > form > p {
     margin-top: 10px;
