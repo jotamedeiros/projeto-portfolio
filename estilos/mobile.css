@@ -42,20 +42,17 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: auto;
-    margin: -1.3rem auto 6rem auto;
+    height: 100%;
+    margin: -2rem auto 6rem auto;
     padding: 1rem;
 }
 
 #img-perfil {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-}
-
-#sobre img {
-    max-width: 75%;
-    height: auto;
-    src: url(../imagens/perfil/perfil-pic-300.jpg);
+    display: block;
+    background-image: url(../imagens/perfil/perfil-pic-300.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
