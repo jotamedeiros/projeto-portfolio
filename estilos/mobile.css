@@ -87,10 +87,18 @@
 /* estilizações da seção 'habilidades técnicas */
 #tech-icons {
     justify-content: space-around;
-    gap: 3.5rem;
+    gap: 3rem;
     padding: 10px;
 }
 
 .tech-icon {
     font-size: 1.1rem;
+}
+
+
+/* estilizações da seção 'projetos' */
+.projeto-conteudo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
