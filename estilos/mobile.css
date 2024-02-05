@@ -1,0 +1,61 @@
+/* Estilização p/ dispositivos mobile */
+
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+
+#dev-field {
+    margin-inline: auto;
+    text-align: center;
+}
+
+.super-titulo {
+    color: var(--corpurple);
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.466);
+}
+
+.super-paragrafo {
+    width: 100%;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.social-icon {
+    gap: 2rem;
+}
+
+.social-item > a {
+    padding: 10px;
+}
+
+/* estilizações da seção 'sobre mim' */
+#sobre-bg {
+    display: block;
+    max-width: 600px;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: -1.3rem auto 6rem auto;
+    padding: 1rem;
+}
+
+#img-perfil {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+#sobre img {
+    max-width: 75%;
+    height: auto;
+    src: url(../imagens/perfil/perfil-pic-300.jpg);
+}
