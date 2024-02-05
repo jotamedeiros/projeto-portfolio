@@ -101,4 +101,46 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+#img-projeto-aujude {
+    background-image: url(../imagens/projects/projeto-aujude-menor.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+}
+
+#img-projeto-login {
+    background-image: url(../imagens/projects/projeto-login-menor.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+}
+
+#img-projeto-social {
+    background-image: url(../imagens/projects/projeto-social-menor.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+}
+
+#img-projeto-android {
+    background-image: url(../imagens/projects/projeto-android-menor.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
 }
