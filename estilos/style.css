@@ -313,7 +313,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: fit-content;
 }
 
 .projeto-conteudo:hover {
