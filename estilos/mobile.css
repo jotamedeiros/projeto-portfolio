@@ -9,6 +9,10 @@ html {
     scroll-padding-top: 2.25rem;
 }
 
+body {
+    width: 96.5vw;
+}
+
 /* estilizações do header */
 header {
     display: block;

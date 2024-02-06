@@ -38,7 +38,7 @@ body {
 header {
     display: block;
     position: fixed;
-    background-color: white;
+    background-color: var(--corgray);
     width: 100%;
     height: auto;
     z-index: 10;
@@ -53,7 +53,7 @@ header {
 }
 
 #logo {
-    color: var(--corgray);
+    color: #fff;
     margin-left: 0.3rem;
     font-size: 1.5rem;
     font-weight: bold;
@@ -73,12 +73,56 @@ header {
 }
 
 .item-list > a {
-    color: var(--corgray);
+    color: #fff;
     text-decoration: none;
 }
 
 .item-list > a:hover {
     color: var(--corpurple);
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .item-list {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .item-list {
+        display: block;
+        padding-top: 1.2rem;
+    }
+}
+
+.open {
+    display: block;
 }
 
 
