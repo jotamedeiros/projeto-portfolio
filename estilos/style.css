@@ -158,7 +158,7 @@ main {
     color: var(--corpurple);
     font-size: 2.5rem;
     margin-bottom: 0.3rem;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.466);
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.253);
 }
 
 .super-paragrafo {
@@ -288,7 +288,7 @@ main {
     margin-bottom: 10px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.315);
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.158);
 }
 
 /* estilizações da lista de projetos */
