@@ -52,8 +52,9 @@
     background-image: url(../imagens/perfil/perfil-paisagem.jpeg);
     background-position: center center;
     background-size: cover;
-    width: 450px;
-    height: 400px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
     border-radius: 20px;
 }
 
@@ -112,6 +113,11 @@
     align-items: center;
     width: 100%;
     height: auto;
+    padding: 10px;
+}
+
+.projeto-link {
+    width: 80%;
 }
 
 #img-projeto-aujude {
