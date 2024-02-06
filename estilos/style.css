@@ -291,6 +291,7 @@ main {
     background-repeat: no-repeat;
     width: 100%;
     height: 250px;
+    border-radius: 10px;
 }
 
 #img-projeto-login {
@@ -300,6 +301,7 @@ main {
     background-repeat: no-repeat;
     width: 100%;
     height: 250px;
+    border-radius: 10px;
 }
 
 #img-projeto-social {
@@ -309,6 +311,7 @@ main {
     background-repeat: no-repeat;
     width: 100%;
     height: 250px;
+    border-radius: 10px;
 }
 
 #img-projeto-android {
@@ -318,27 +321,36 @@ main {
     background-repeat: no-repeat;
     width: 100%;
     height: 250px;
+    border-radius: 10px;
 }
 
 .titulo-projeto {
     color: var(--corpurple);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.315);
     margin-bottom: 20px;
+    text-align: center;
 }
-
-/* .projeto-img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
-} */
 
 .projeto-img > img {
     border-radius: 6px;
 }
 
+#descricao > p {
+    text-align: center;
+}
+
 .techs-projeto {
-    margin-left: 17px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+}
+
+.techs-projeto li {
+    padding: 5px 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(129, 129, 129, 0.09);
 }
 
 .projetos-links {
@@ -346,7 +358,7 @@ main {
     gap: 50px;
     justify-content: center;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .link-externo {
