@@ -120,14 +120,19 @@ main {
 
 /* estilizações da seção 'projetos' */
 #projetos-bg {
+    width: 100%;
     margin: 30px auto 0px auto;
+}
+
+#projetos-container {
+
 }
 
 .projeto-conteudo {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
+    width: fit-content;
     height: auto;
 }
 
@@ -153,7 +158,7 @@ main {
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 400px;
+    width: 300px;
 }
 
 #img-projeto-login {
@@ -161,7 +166,7 @@ main {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 400px;
+    width: 300px;
 }
 
 #img-projeto-social {
@@ -169,7 +174,7 @@ main {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 400px;
+    width: 300px;
 }
 
 #img-projeto-android {
@@ -177,7 +182,7 @@ main {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 400px;
+    width: 300px;
 }
 
 
