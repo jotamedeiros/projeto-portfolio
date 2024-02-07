@@ -167,16 +167,20 @@ main {
     font-size: 1.1rem;
 }
 
-.social-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.9rem;
-    margin-top: 1.25rem;
+.social-item a {
+    padding: 10px;
 }
 
 .social-item:hover {
     transform: translateY(0.3rem);
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2.25rem;
 }
 
 /* estilizações da seção 'sobre mim' */
@@ -210,6 +214,10 @@ main {
     max-width: 100%;
     height: 100%;
     border-radius: 30px;
+}
+
+#conteudo {
+    padding: 5px;
 }
 
 #conteudo p {
@@ -546,7 +554,7 @@ footer {
 
 .footer-titulo p {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #footer-list {
