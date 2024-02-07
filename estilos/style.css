@@ -304,7 +304,7 @@ main {
     height: auto;
     padding: 20px 20px;
     margin: 100px auto 0px auto;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.445);
 }
 
 .projetos-container {
