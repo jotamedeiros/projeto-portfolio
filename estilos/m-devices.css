@@ -19,24 +19,24 @@
 }
 
 #img-projeto-aujude {
-    background-image: url(../imagens/projects/projeto-aujude-altura.png);
+    background-image: url(../imagens/projects/projeto-aujude-altura.jpg);
     background-size:cover;
     background-position: top center;
 }
 
 #img-projeto-login {
-    background-image: url(../imagens/projects/projeto-login-altura.png);
+    background-image: url(../imagens/projects/projeto-login-altura.jpg);
     border-radius: 10px;
     background-size:cover;
 }
 
 #img-projeto-social {
-    background-image: url(../imagens/projects/projeto-social-altura.png);
+    background-image: url(../imagens/projects/projeto-social-altura.jpg);
     background-size:cover;
 }
 
 #img-projeto-android {
-    background-image: url(../imagens/projects/projeto-android-altura.png);
+    background-image: url(../imagens/projects/projeto-android-altura.jpg);
     background-size: cover;
 }
 
