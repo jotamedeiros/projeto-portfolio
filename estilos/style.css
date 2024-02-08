@@ -208,6 +208,9 @@ main {
     background-size: cover;
     height: 450px;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.404);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #sobre img {
@@ -343,11 +346,13 @@ main {
     margin: 80px 0px 30px 0px;
     width: 80%;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.205);
     padding: 20px 15px;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #img-projeto-aujude {
@@ -469,7 +474,9 @@ aside {
     padding: 20px;
     border: 1px solid #f5f5f5;
     border-radius: 10px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #form-container {
@@ -555,7 +562,7 @@ footer {
 
 .footer-titulo p {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 #footer-list {
