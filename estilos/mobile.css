@@ -68,11 +68,11 @@ main {
 
 #img-perfil {
     display: block;
-    background-image: url(../imagens/perfil/perfil-paisagem.jpeg);
-    background-position: top center;
+    background-image: url(../imagens/perfil/selfie.jpg);
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 95%;
+    width: 80%;
     height: 400px;
 }
 
