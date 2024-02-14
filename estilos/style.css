@@ -159,7 +159,7 @@ main {
     color: var(--corpurple);
     font-size: 2.5rem;
     margin-bottom: 0.3rem;
-    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.253);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.158);
 }
 
 .super-paragrafo {
@@ -301,7 +301,7 @@ main {
     margin-bottom: 10px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.158);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.158);
 }
 
 /* estilizações da lista de projetos */
@@ -324,7 +324,7 @@ main {
     align-items: center;
     justify-items: center;
     width: 80%;
-    padding: 0px 20px;
+    padding: 10px 20px;
 }
 
 .projeto-conteudo {
@@ -398,7 +398,7 @@ main {
 
 .titulo-projeto {
     color: var(--corpurple);
-    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.185);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.185);
     margin-bottom: 20px;
     text-align: center;
 }
@@ -544,6 +544,7 @@ footer {
     height: auto;
     width: 100%;
     padding-block: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
 }
 
 #rodape {

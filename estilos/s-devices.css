@@ -102,14 +102,14 @@ main {
     margin-bottom: 10px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.185);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.185);
 }
 
 
 /* estilizações da seção 'habilidades técnicas */
 #tech-icons {
     justify-content: space-around;
-    gap: 2rem;
+    gap: 1.5rem;
     padding: 20px;
 }
 
@@ -122,6 +122,10 @@ main {
 #projetos-bg {
     width: 100%;
     margin: 30px auto 0px auto;
+}
+
+.projetos-container {
+    width: 100%;
 }
 
 .projeto-conteudo {
@@ -223,7 +227,7 @@ main {
 }
 
 .footer-titulo p {
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .contato-texto {
