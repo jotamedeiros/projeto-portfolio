@@ -365,6 +365,16 @@ main {
     border-radius: 10px;
 }
 
+#img-projeto-calculator {
+    background-image: url(../imagens/projects/projeto-calculator.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
 #img-projeto-login {
     background-image: url(../imagens/projects/projeto-login-altura.jpg);
     background-position: center center;

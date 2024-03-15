@@ -29,6 +29,12 @@
     background-position: top center;
 }
 
+#img-projeto-calculator {
+    background-image: url(../imagens/projects/projeto-calculator.jpg);
+    border-radius: 10px;
+    background-size:cover;
+}
+
 #img-projeto-login {
     background-image: url(../imagens/projects/projeto-login-altura.jpg);
     border-radius: 10px;
