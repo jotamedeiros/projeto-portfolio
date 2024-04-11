@@ -251,7 +251,7 @@ main {
 #tech-icons {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;   
+    gap: 25px;   
     list-style-type: none;
     border-radius: 50%;
 }
